@@ -31,6 +31,7 @@
 .header__searchIcon {
     padding: 5px;
     height: 22px !important;
+    cursor: pointer;
     background-color: #cd9042;
   }
 .header__nav{
@@ -43,7 +44,7 @@
 .header__option{
     display: flex;
     flex-direction: column;
-    margin: 0px 10px;
+    margin: 0px 15px;
 }
 
 .header__optionLineOne{
@@ -58,10 +59,9 @@
   .header__optionBasket {
     display: flex;
     align-items: center;
-    color: white;
+    margin-left:15px;
   }
   
   .header__basketCount {
-    margin-left: 10px;
-    margin-right: 10px;
+   margin: 0px 10px;
   }
